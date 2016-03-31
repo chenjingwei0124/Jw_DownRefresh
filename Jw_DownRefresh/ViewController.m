@@ -24,6 +24,9 @@
     
     [self setupPullToRefreshView:self.scrollV];
     
+    
+    
+    
 }
 
 - (void)setupPullToRefreshView:(UIScrollView *)scrollView{
