@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6FDC771CACC06700BC5935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDC761CACC06700BC5935 /* main.m */; };
+		CB6FDC7A1CACC06700BC5935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDC791CACC06700BC5935 /* AppDelegate.m */; };
+		CB6FDC7D1CACC06700BC5935 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDC7C1CACC06700BC5935 /* ViewController.m */; };
+		CB6FDC801CACC06700BC5935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6FDC7E1CACC06700BC5935 /* Main.storyboard */; };
+		CB6FDC831CACC06700BC5935 /* Jw_DownRefresh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDC811CACC06700BC5935 /* Jw_DownRefresh.xcdatamodeld */; };
+		CB6FDC851CACC06700BC5935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6FDC841CACC06700BC5935 /* Assets.xcassets */; };
+		CB6FDC881CACC06700BC5935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6FDC861CACC06700BC5935 /* LaunchScreen.storyboard */; };
+		CB6FDC931CACC06700BC5935 /* Jw_DownRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDC921CACC06700BC5935 /* Jw_DownRefreshTests.m */; };
+		CB6FDC9E1CACC06700BC5935 /* Jw_DownRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDC9D1CACC06700BC5935 /* Jw_DownRefreshUITests.m */; };
+		CB6FDCB21CACC57800BC5935 /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDCAD1CACC57800BC5935 /* DGElasticPullToRefreshConstants.swift */; };
+		CB6FDCB31CACC57800BC5935 /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDCAE1CACC57800BC5935 /* DGElasticPullToRefreshExtensions.swift */; };
+		CB6FDCB41CACC57800BC5935 /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDCAF1CACC57800BC5935 /* DGElasticPullToRefreshLoadingView.swift */; };
+		CB6FDCB51CACC57800BC5935 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDCB01CACC57800BC5935 /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
+		CB6FDCB61CACC57800BC5935 /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6FDCB11CACC57800BC5935 /* DGElasticPullToRefreshView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB6FDC8F1CACC06700BC5935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6FDC6A1CACC06700BC5935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6FDC711CACC06700BC5935;
+			remoteInfo = Jw_DownRefresh;
+		};
+		CB6FDC9A1CACC06700BC5935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6FDC6A1CACC06700BC5935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6FDC711CACC06700BC5935;
+			remoteInfo = Jw_DownRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB6FDC721CACC06700BC5935 /* Jw_DownRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jw_DownRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6FDC761CACC06700BC5935 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6FDC781CACC06700BC5935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB6FDC791CACC06700BC5935 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB6FDC7B1CACC06700BC5935 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB6FDC7C1CACC06700BC5935 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB6FDC7F1CACC06700BC5935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB6FDC821CACC06700BC5935 /* Jw_DownRefresh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jw_DownRefresh.xcdatamodel; sourceTree = "<group>"; };
+		CB6FDC841CACC06700BC5935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB6FDC871CACC06700BC5935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB6FDC891CACC06700BC5935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6FDC8E1CACC06700BC5935 /* Jw_DownRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jw_DownRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6FDC921CACC06700BC5935 /* Jw_DownRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jw_DownRefreshTests.m; sourceTree = "<group>"; };
+		CB6FDC941CACC06700BC5935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6FDC991CACC06700BC5935 /* Jw_DownRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jw_DownRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6FDC9D1CACC06700BC5935 /* Jw_DownRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jw_DownRefreshUITests.m; sourceTree = "<group>"; };
+		CB6FDC9F1CACC06700BC5935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6FDCAD1CACC57800BC5935 /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		CB6FDCAE1CACC57800BC5935 /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+		CB6FDCAF1CACC57800BC5935 /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		CB6FDCB01CACC57800BC5935 /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		CB6FDCB11CACC57800BC5935 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6FDC6F1CACC06700BC5935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FDC8B1CACC06700BC5935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FDC961CACC06700BC5935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6FDC691CACC06700BC5935 = {
+			isa = PBXGroup;
+			children = (
+				CB6FDC741CACC06700BC5935 /* Jw_DownRefresh */,
+				CB6FDC911CACC06700BC5935 /* Jw_DownRefreshTests */,
+				CB6FDC9C1CACC06700BC5935 /* Jw_DownRefreshUITests */,
+				CB6FDC731CACC06700BC5935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6FDC731CACC06700BC5935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FDC721CACC06700BC5935 /* Jw_DownRefresh.app */,
+				CB6FDC8E1CACC06700BC5935 /* Jw_DownRefreshTests.xctest */,
+				CB6FDC991CACC06700BC5935 /* Jw_DownRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6FDC741CACC06700BC5935 /* Jw_DownRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FDC781CACC06700BC5935 /* AppDelegate.h */,
+				CB6FDC791CACC06700BC5935 /* AppDelegate.m */,
+				CB6FDC7B1CACC06700BC5935 /* ViewController.h */,
+				CB6FDC7C1CACC06700BC5935 /* ViewController.m */,
+				CB6FDCAC1CACC57800BC5935 /* DGElasticPullToRefresh */,
+				CB6FDC7E1CACC06700BC5935 /* Main.storyboard */,
+				CB6FDC841CACC06700BC5935 /* Assets.xcassets */,
+				CB6FDC861CACC06700BC5935 /* LaunchScreen.storyboard */,
+				CB6FDC891CACC06700BC5935 /* Info.plist */,
+				CB6FDC811CACC06700BC5935 /* Jw_DownRefresh.xcdatamodeld */,
+				CB6FDC751CACC06700BC5935 /* Supporting Files */,
+			);
+			path = Jw_DownRefresh;
+			sourceTree = "<group>";
+		};
+		CB6FDC751CACC06700BC5935 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FDC761CACC06700BC5935 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB6FDC911CACC06700BC5935 /* Jw_DownRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FDC921CACC06700BC5935 /* Jw_DownRefreshTests.m */,
+				CB6FDC941CACC06700BC5935 /* Info.plist */,
+			);
+			path = Jw_DownRefreshTests;
+			sourceTree = "<group>";
+		};
+		CB6FDC9C1CACC06700BC5935 /* Jw_DownRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FDC9D1CACC06700BC5935 /* Jw_DownRefreshUITests.m */,
+				CB6FDC9F1CACC06700BC5935 /* Info.plist */,
+			);
+			path = Jw_DownRefreshUITests;
+			sourceTree = "<group>";
+		};
+		CB6FDCAC1CACC57800BC5935 /* DGElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FDCAD1CACC57800BC5935 /* DGElasticPullToRefreshConstants.swift */,
+				CB6FDCAE1CACC57800BC5935 /* DGElasticPullToRefreshExtensions.swift */,
+				CB6FDCAF1CACC57800BC5935 /* DGElasticPullToRefreshLoadingView.swift */,
+				CB6FDCB01CACC57800BC5935 /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				CB6FDCB11CACC57800BC5935 /* DGElasticPullToRefreshView.swift */,
+			);
+			path = DGElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6FDC711CACC06700BC5935 /* Jw_DownRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6FDCA21CACC06700BC5935 /* Build configuration list for PBXNativeTarget "Jw_DownRefresh" */;
+			buildPhases = (
+				CB6FDC6E1CACC06700BC5935 /* Sources */,
+				CB6FDC6F1CACC06700BC5935 /* Frameworks */,
+				CB6FDC701CACC06700BC5935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jw_DownRefresh;
+			productName = Jw_DownRefresh;
+			productReference = CB6FDC721CACC06700BC5935 /* Jw_DownRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB6FDC8D1CACC06700BC5935 /* Jw_DownRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6FDCA51CACC06700BC5935 /* Build configuration list for PBXNativeTarget "Jw_DownRefreshTests" */;
+			buildPhases = (
+				CB6FDC8A1CACC06700BC5935 /* Sources */,
+				CB6FDC8B1CACC06700BC5935 /* Frameworks */,
+				CB6FDC8C1CACC06700BC5935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6FDC901CACC06700BC5935 /* PBXTargetDependency */,
+			);
+			name = Jw_DownRefreshTests;
+			productName = Jw_DownRefreshTests;
+			productReference = CB6FDC8E1CACC06700BC5935 /* Jw_DownRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB6FDC981CACC06700BC5935 /* Jw_DownRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6FDCA81CACC06700BC5935 /* Build configuration list for PBXNativeTarget "Jw_DownRefreshUITests" */;
+			buildPhases = (
+				CB6FDC951CACC06700BC5935 /* Sources */,
+				CB6FDC961CACC06700BC5935 /* Frameworks */,
+				CB6FDC971CACC06700BC5935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6FDC9B1CACC06700BC5935 /* PBXTargetDependency */,
+			);
+			name = Jw_DownRefreshUITests;
+			productName = Jw_DownRefreshUITests;
+			productReference = CB6FDC991CACC06700BC5935 /* Jw_DownRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6FDC6A1CACC06700BC5935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jw;
+				TargetAttributes = {
+					CB6FDC711CACC06700BC5935 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CB6FDC8D1CACC06700BC5935 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB6FDC711CACC06700BC5935;
+					};
+					CB6FDC981CACC06700BC5935 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CB6FDC711CACC06700BC5935;
+					};
+				};
+			};
+			buildConfigurationList = CB6FDC6D1CACC06700BC5935 /* Build configuration list for PBXProject "Jw_DownRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB6FDC691CACC06700BC5935;
+			productRefGroup = CB6FDC731CACC06700BC5935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6FDC711CACC06700BC5935 /* Jw_DownRefresh */,
+				CB6FDC8D1CACC06700BC5935 /* Jw_DownRefreshTests */,
+				CB6FDC981CACC06700BC5935 /* Jw_DownRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6FDC701CACC06700BC5935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FDC881CACC06700BC5935 /* LaunchScreen.storyboard in Resources */,
+				CB6FDC851CACC06700BC5935 /* Assets.xcassets in Resources */,
+				CB6FDC801CACC06700BC5935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FDC8C1CACC06700BC5935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FDC971CACC06700BC5935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6FDC6E1CACC06700BC5935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FDC7D1CACC06700BC5935 /* ViewController.m in Sources */,
+				CB6FDCB41CACC57800BC5935 /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				CB6FDCB51CACC57800BC5935 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				CB6FDC7A1CACC06700BC5935 /* AppDelegate.m in Sources */,
+				CB6FDC831CACC06700BC5935 /* Jw_DownRefresh.xcdatamodeld in Sources */,
+				CB6FDCB61CACC57800BC5935 /* DGElasticPullToRefreshView.swift in Sources */,
+				CB6FDCB21CACC57800BC5935 /* DGElasticPullToRefreshConstants.swift in Sources */,
+				CB6FDCB31CACC57800BC5935 /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				CB6FDC771CACC06700BC5935 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FDC8A1CACC06700BC5935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FDC931CACC06700BC5935 /* Jw_DownRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6FDC951CACC06700BC5935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FDC9E1CACC06700BC5935 /* Jw_DownRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB6FDC901CACC06700BC5935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6FDC711CACC06700BC5935 /* Jw_DownRefresh */;
+			targetProxy = CB6FDC8F1CACC06700BC5935 /* PBXContainerItemProxy */;
+		};
+		CB6FDC9B1CACC06700BC5935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6FDC711CACC06700BC5935 /* Jw_DownRefresh */;
+			targetProxy = CB6FDC9A1CACC06700BC5935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB6FDC7E1CACC06700BC5935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6FDC7F1CACC06700BC5935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB6FDC861CACC06700BC5935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6FDC871CACC06700BC5935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6FDCA01CACC06700BC5935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB6FDCA11CACC06700BC5935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB6FDCA31CACC06700BC5935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jw_DownRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jingwei-allinpalm.com.Jw-DownRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB6FDCA41CACC06700BC5935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jw_DownRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jingwei-allinpalm.com.Jw-DownRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB6FDCA61CACC06700BC5935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jw_DownRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jingwei-allinpalm.com.Jw-DownRefreshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jw_DownRefresh.app/Jw_DownRefresh";
+			};
+			name = Debug;
+		};
+		CB6FDCA71CACC06700BC5935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jw_DownRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jingwei-allinpalm.com.Jw-DownRefreshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jw_DownRefresh.app/Jw_DownRefresh";
+			};
+			name = Release;
+		};
+		CB6FDCA91CACC06700BC5935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jw_DownRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jingwei-allinpalm.com.Jw-DownRefreshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jw_DownRefresh;
+			};
+			name = Debug;
+		};
+		CB6FDCAA1CACC06700BC5935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jw_DownRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jingwei-allinpalm.com.Jw-DownRefreshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jw_DownRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6FDC6D1CACC06700BC5935 /* Build configuration list for PBXProject "Jw_DownRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FDCA01CACC06700BC5935 /* Debug */,
+				CB6FDCA11CACC06700BC5935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6FDCA21CACC06700BC5935 /* Build configuration list for PBXNativeTarget "Jw_DownRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FDCA31CACC06700BC5935 /* Debug */,
+				CB6FDCA41CACC06700BC5935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB6FDCA51CACC06700BC5935 /* Build configuration list for PBXNativeTarget "Jw_DownRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FDCA61CACC06700BC5935 /* Debug */,
+				CB6FDCA71CACC06700BC5935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB6FDCA81CACC06700BC5935 /* Build configuration list for PBXNativeTarget "Jw_DownRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6FDCA91CACC06700BC5935 /* Debug */,
+				CB6FDCAA1CACC06700BC5935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB6FDC811CACC06700BC5935 /* Jw_DownRefresh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB6FDC821CACC06700BC5935 /* Jw_DownRefresh.xcdatamodel */,
+			);
+			currentVersion = CB6FDC821CACC06700BC5935 /* Jw_DownRefresh.xcdatamodel */;
+			path = Jw_DownRefresh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB6FDC6A1CACC06700BC5935 /* Project object */;
+}
